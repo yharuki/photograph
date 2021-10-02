@@ -33,6 +33,10 @@ import HomePage from "./components/pages/HomePage";
 import Slideshow from "./components/pages/Slideshow";
 import images from "./utils/images.json";
 
+// Warning
+// The single page application that use react-routing will not work on the git-hub pages.
+// See "https://maku.blog/p/9u8it5f/"
+
 const App: React.FC = () => {
   return (
     <Router>
@@ -44,6 +48,8 @@ const App: React.FC = () => {
     </Router>
   );
 };
+
+
 
         // <Route path="/photograph" component={HomePage} exact />
 
