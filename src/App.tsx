@@ -37,13 +37,15 @@ const App: React.FC = () => {
   return (
     <Router>
       <Switch>
-        <Route path="/products" component={ProductPage} exact />
-        <Route path="/" component={HomePage} exact />
-        <Route path="/About" render={ () => <Slideshow sec={5000} images={images.url_list} /> }/>
+        <Route path="/photograph/products/" component={ProductPage} exact />
+        <Route path="/photograph" render={ () => <Slideshow sec={5000} images={images.url_list} /> }/>
+        <Route path="/photograph/about/" render={ () => <Slideshow sec={5000} images={images.url_list} /> }/>
       </Switch>
     </Router>
   );
 };
+
+        // <Route path="/photograph" component={HomePage} exact />
 
     // <div className="App">
     //   <Slideshow sec={5000} images={images.url_list} />
