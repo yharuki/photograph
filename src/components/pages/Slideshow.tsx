@@ -30,7 +30,7 @@ const Showcase: React.FC<Props> = ({ sec = 1000, images = [] }: Props) => {
         classNames="fade"
         unmountOnExit
       >
-        <div style={{ backgroundImage: `url(${image})` }} />
+        <div style={{ backgroundImage: `url(${image})` , backgroundSize: 'contain', backgroundRepeat: 'no-repeat' }} />
       </CSSTransition>
     );
   });
