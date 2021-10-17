@@ -1,7 +1,19 @@
 # photograph
 This photograph is made by react app.
 
-### Usage
+### Prepare
+
+At photograph.wiki repository.
+
+> $ py image_risizer.py
+
+Copy and paste to `images.json` into following directoory.
+
+```
+photograph/src/utils/
+```
+
+### Build and deploy
 
 Please commit and push target source codes to remote repository.
 
